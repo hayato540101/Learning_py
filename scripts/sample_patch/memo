@@ -1,0 +1,5 @@
+# make patch
+diff -u A.py B.py > diff.patch
+
+# apply
+patch A.py diff.patch
