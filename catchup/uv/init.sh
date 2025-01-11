@@ -1,4 +1,5 @@
 # uv_init.sh
+# for WSL
 export UV_LINK_MODE=copy
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
