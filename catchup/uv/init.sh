@@ -15,6 +15,9 @@ uv python pin 3.12.8
 # 開発用パッケージをインストール
 uv add --dev ruff
 
+# インストールなしでCLIを実行
+uvx add --dev ruff
+
 # パッケージをインストール
 uv add pandas
 
